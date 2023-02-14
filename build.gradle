@@ -1,0 +1,17 @@
+plugins {
+    id "org.gosu-lang.gosu" version "6.1.0"
+    id "java"
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.gosu-lang.gosu:gosu-core-api:1.15.8'
+    testCompile "junit:junit:4.12"
+}
